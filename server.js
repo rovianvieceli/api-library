@@ -3,8 +3,8 @@
  * In heroku
  * Tell in terminal heroku
  * MONGODB_URI is not supported, then use MONGOLAB_URI
- * heroku config:set MONGOLAB_URI='mongodb://<your_username>:<your_password>@ds223653.mlab.com:23653(your mlab collection link given by mlab)/collection_name'
- *
+ * heroku config:set MONGOLAB_URI='mongodb://heroku_c27gm9hh:J6swDuXgBkbR1qWqUMCU6MgtOGK_3UWr@ds223653.mlab.com:23653(your mlab collection link given by mlab)/collection_name'
+ *mongodb://<dbuser>:<dbpassword>@ds333248.mlab.com:33248/heroku_c27gm9hh
  */
 
 const PORT = process.env.PORT || 5000;
